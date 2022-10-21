@@ -1,0 +1,22 @@
+{
+  "name": "05_jwt_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Phuc Tong",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongose": "^0.0.2-security",
+    "moongose": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
